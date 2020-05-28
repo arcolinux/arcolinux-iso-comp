@@ -37,7 +37,6 @@ irssi
 #iwd
 jfsutils
 #lftp
-libatomic_ops
 linux-atm
 linux-firmware
 logrotate
@@ -64,7 +63,7 @@ parted
 partimage
 ppp
 pptpclient
-refind-efi
+refind
 reiserfsprogs
 rp-pppoe
 rsync
@@ -317,10 +316,10 @@ gtop
 hardinfo
 hddtemp
 htop
-#hunspell
-#hunspell-en
-#hyphen
-#hyphen-en
+hunspell
+hunspell-en_US
+hyphen
+hyphen-en
 grsync
 intltool
 iw
@@ -340,10 +339,10 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+#qt5-styleplugins
 #qt5-tools
 qt5-webkit
-powertop
+#powertop
 reflector
 #redshift
 rofi
@@ -359,7 +358,7 @@ gufw
 unace
 unrar
 unzip
-vnstat
+#vnstat
 w3m
 webkit2gtk
 wmctrl
@@ -386,7 +385,7 @@ vivaldi
 #breeze-obsidian-cursor-theme
 #oxy-neon
 bibata-cursor-theme
-breeze
+#breeze
 #xcursor-vanilla-dmz-aa
 
 ###fonts
@@ -414,7 +413,6 @@ mkinitcpio-openswap
 
 ###utilities-repo
 archiso
-aurvote-git
 conky-lua-archers
 downgrade
 font-manager-git
@@ -485,8 +483,8 @@ arcolinux-logout-git
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
 arcolinux-nitrogen-git
-arcolinux-oblogout
-arcolinux-oblogout-themes-git
+#arcolinux-oblogout
+#arcolinux-oblogout-themes-git
 arcolinux-obmenu-generator-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
@@ -501,9 +499,10 @@ arcolinux-qt5-git
 arcolinux-rofi-git
 arcolinux-rofi-themes-git
 arcolinux-root-git
-arcolinux-slim
-arcolinux-slimlock-themes-git
+#arcolinux-slim
+#arcolinux-slimlock-themes-git
 arcolinux-system-config-git
+#arcolinuxd-system-config-git
 #arcolinux-systemd-services-git
 arcolinux-termite-themes-git
 arcolinux-tint2-git
@@ -787,3 +786,4 @@ xfce4-panel-profiles
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
+polybar
